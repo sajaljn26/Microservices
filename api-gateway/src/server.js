@@ -5,7 +5,7 @@ const helmet = require("helmet");
 const Redis = require("ioredis");
 const { rateLimit } = require("express-rate-limit");
 const { RedisStore } = require("rate-limit-redis");
-const logger = require("../../identity-service/src/utils/logger");
+const logger = require("../utils/logger.js");
 const proxy = require("express-http-proxy");
 const { validateToken } = require("./middleware/authMiddleware");
 
