@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const { create } = require("../../../post-service/src/models/Post")
+ //const { create } = require("../../../post-service/src/models/Post")
 const SearchPostSchema = new mongoose.Schema({
     postId : {
         type : String,
